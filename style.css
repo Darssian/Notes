@@ -14,6 +14,39 @@
     height: 100vh;
 
 }
+
+.edit {
+    position: relative;
+    z-index: 3;
+}
+
+.edit img {
+    position: relative;
+    pointer-events: none;
+}
+
+.edit-input_save {
+    position: relative;
+    z-index: 3;
+}
+
+.edit-input_save img {
+    position: relative;
+    pointer-events: none;
+
+}
+
+.edit-input_cancel {
+    position: relative;
+    z-index: 3;
+}
+
+.edit-input_cancel img {
+    position: relative;
+    pointer-events: none;
+
+}
+
 .confirm_delete_background {
     position: absolute;
     top: 0;
@@ -26,6 +59,7 @@
     height: 100vh;
     z-index: 5;
 }
+
 .confirm_delete_body {
     position: relative;
     z-index: 6;
@@ -41,29 +75,52 @@
     flex-direction: column;
     gap: 30px;
 }
-.confirm_delete_body_close{
+
+.confirm_delete_body_close {
     position: absolute;
     top: 5px;
     right: 5px;
     opacity: .7;
     z-index: 7;
 }
+
 .confirm_delete_body_title {
     font-weight: 600;
-font-size: 36px;
-line-height: 111%;
+    font-size: 36px;
+    line-height: 111%;
 
 }
+
 .confirm_delete_body_text {
     font-weight: 400;
-font-size: 16px;
-line-height: 150%;
+    font-size: 16px;
+    line-height: 150%;
 }
-.confirm_delete_body_footer {
+
+.confirm_delete_body_footer {}
+
+.btn {}
+
+.btn-small {}
+
+.btn-danger {}
+
+.input_li {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
+    display: none;
+    align-items: center;
+
 }
-.btn {
-}
-.btn-small {
-}
-.btn-danger {
+
+.edit_input {
+    position: relative;
+    z-index: 5;
 }
